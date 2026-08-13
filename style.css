@@ -1,0 +1,497 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "ABeeZee", sans-serif;
+  color: inherit;
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: 400;
+}
+
+body {
+  background: #0B1D26;
+  color: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 50px;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  font-size: 18px;
+}
+
+.AccImage {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+}
+
+.account {
+  font-size: 18px;
+}
+
+
+.IgnTwArea {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 65vh;
+  padding-bottom: 100px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 40px;
+  gap: 40px;
+}
+
+
+.Follow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 53px;
+}
+
+.Follow p {
+  transform: rotate(90deg);
+  margin-bottom: 50px;
+  white-space: nowrap;
+}
+
+.Follow a {
+  display: block;
+  margin-top: 10px;
+}
+
+.Hiking-GuideArea {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  letter-spacing: 0%;
+  margin-left: 16.5%;
+  top: 278px;
+  order: 2;
+}
+
+.HG{
+  color: #84fba8;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+h1{
+  color: #FA9595;
+  font-size: clamp(44px, 5vw, 88px)
+}
+
+.SD {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.SD svg {
+  margin-left: 10px;
+}
+
+.StartArea {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  font-size: 18px;
+  order: 3;
+  padding-bottom: 30px;
+}
+
+.StartText {
+  text-align: right;
+}
+
+.StartText p {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.Line {
+  margin-left: 20px;
+}
+
+.Line svg {
+  display: block;
+}
+
+.Bg{
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
+
+.Pic1, .Pic2, .Pic3{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.Pic1{
+  z-index: 1;
+  position: relative;
+}
+
+.Pic2{
+  z-index: 2;
+  position: relative;
+  margin-top: -33%;
+}
+
+.Pic3{
+  z-index: 3;
+  position: relative;
+  margin-top: -58%;
+}
+
+.Gradient{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 4;
+  background: linear-gradient( to top, rgba(11, 29, 38, 1) 0%, transparent 40%),
+  linear-gradient(to bottom right,rgba(11, 29, 38, 0.9) 0%, transparent 40%);
+  pointer-events: none;
+}
+
+.Layout{
+  align-items: center; 
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 450px;
+  justify-content: center;
+}
+
+.Sec1{
+ margin-top: 40%;
+ margin-right: 8%;
+}
+
+.Sec2{
+ margin-top: 16.5%;
+ margin-left: 15%;
+}
+
+.Sec3{
+ margin-top: 16.5%;
+ margin-right: 10%;
+ margin-bottom: 5%;
+}
+
+.Layout.reverse{
+  flex-direction: row-reverse;
+}
+
+.img{
+  height: 550px; 
+  width: 400px;
+  overflow: hidden;
+}
+
+.img img{
+  height: 550px;
+  width: 375px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+
+
+.Content{
+  width: 62%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TextArea{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 380px;
+  gap: 16px;
+  position: relative;
+}
+
+.num1{
+  font-size: 130px;
+  opacity: 10%;
+  color: #ffffff;
+  position: absolute;
+  top: -69px;
+  left: -80px;
+}
+
+.tag{
+  display: flex;
+}
+
+.GT{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #84fba8;
+  font-size: 15px;
+  letter-spacing: 4px;
+}
+
+.Title{
+  color: #FFFFFF;
+  font-size: 30px;
+}
+
+.Desc{
+  display: flex;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.ReadArea {
+  display: flex;
+  align-items: center;
+  color: #9fd8b0;
+  font-size: 18px;
+  gap: 10px;
+}
+
+.Footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px 80px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#MidFooter{
+  padding-left: 25%;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 300px;
+}
+
+.tagline{
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.copyright{
+  color: #ffffff;
+  opacity: 50%;
+  font-size: 14px;
+  margin-top: 70px;
+}
+
+.BlogArea{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.heading{
+  color: #84FBA8;
+  font-size: 18px;
+}
+
+.AboutWD{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.AboutWD a{
+  color: #FFFFFF;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+
+  .IgnTwArea {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+    min-height: auto;
+  }
+
+  .Follow {
+    display: none;
+  }
+
+  .Hiking-GuideArea {
+    margin-left: 0;
+    align-items: center;
+    order: 1;
+  }
+
+  .StartArea {
+    justify-content: center;
+    order: 2;
+    padding-bottom: 0;
+  }
+
+  .StartText {
+    text-align: center;
+  }
+
+  .Layout,
+  .Layout.reverse {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+
+  .Content {
+    width: 100%;
+  }
+
+  .Sec1, .Sec2, .Sec3 {
+    margin: 30px 0;
+  }
+
+  .img {
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+  }
+
+  .img img {
+    width: 300px;
+    height: 400px;
+  }
+
+  .TextArea {
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .Footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding: 40px 20px;
+    margin: 0;
+  }
+
+  #MidFooter {
+    padding-left: 0;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  header {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  nav{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    font-size: 16px;
+  }
+
+
+  ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    font-size: 16px;
+  }
+
+  .Hiking-GuideArea {
+    padding: 0 15px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .SD {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .num1 {
+    font-size: 80px;
+    top: -40px;
+    left: -20px;
+  }
+
+  .Title {
+    font-size: 24px;
+  }
+
+  .Desc {
+    font-size: 16px;
+  }
+
+  .img {
+    width: 100%;
+    max-width: 280px;
+    height: 300px;
+  }
+
+  .img img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .Footer {
+    padding: 30px 15px;
+  }
+
+  .left {
+    max-width: 100%;
+  }
+
+}
